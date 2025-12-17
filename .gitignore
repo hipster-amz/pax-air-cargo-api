@@ -1,6 +1,5 @@
 # Dependencies
 node_modules/
-package-lock.json
 yarn.lock
 
 # Build artifacts
@@ -44,3 +43,7 @@ uploads/
 # SQLite
 *.sqlite
 data/
+
+# Backend dependencies
+backend/node_modules/
+backend/dist/
