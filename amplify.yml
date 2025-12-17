@@ -1,0 +1,28 @@
+version: 1
+applications:
+  - appRoot: frontend
+    envName: prod
+    backend:
+      stackName: pax-air-cargo-backend
+      deploymentBucketName: amplify-pax-air-cargo-deployments
+      UsingProfile: false
+      awsConfigFilePath: ~/.aws/config
+    frontend:
+      phases:
+        preBuild:
+          commands:
+            - npm ci
+        build:
+          commands:
+            - npm run build
+      artifacts:
+        baseDirectory: dist
+        files:
+          - '**/*'
+      cache:
+        paths:
+          - node_modules/**/*
+      logging:
+        cloudWatchLogGroupName: /aws/amplify/pax-air-cargo
+        level: INFO
+        retentionInDays: 3
