@@ -1,0 +1,11 @@
+Route_Code,carrier code,carrier,Operation Region,equip,code_dep,code_arr,Operation Type,Block Hours,Distance (km),Capacity (Tonnes),Capacity ATK (x1000),Weekly Flight Count
+LAX-HKG-UA,UA,United Airlines,Transpacific,B777-300ER,LAX,HKG,Scheduled,14.5,11646,23.5,284.8,7
+LAX-HKG-CX,CX,Cathay Pacific,Transpacific,A350-900,LAX,HKG,Scheduled,14.2,11646,21.9,265.2,7
+LAX-HKG-AA,AA,American Airlines,Transpacific,B787-9,LAX,HKG,Scheduled,14.0,11646,20.5,248.0,7
+LAX-SIN-SQ,SQ,Singapore Airlines,Transpacific,A350-900,LAX,SIN,Scheduled,17.5,13633,21.0,254.4,5
+LAX-SYD-QF,QF,Qantas Airways,Transpacific,B787-9,LAX,SYD,Scheduled,15.5,12050,20.0,242.0,3
+JFK-LHR-BA,BA,British Airways,Transatlantic,B777-300ER,JFK,LHR,Scheduled,7.5,5585,22.0,266.4,14
+JFK-LHR-AA,AA,American Airlines,Transatlantic,B777-300ER,JFK,LHR,Scheduled,7.5,5585,22.0,266.4,10
+JFK-FRA-LH,LH,Lufthansa,Transatlantic,B747-8,JFK,FRA,Scheduled,8.5,6200,24.0,345.6,7
+HKG-LAX-CX,CX,Cathay Pacific,Transpacific,A350-900,HKG,LAX,Scheduled,14.3,11646,21.9,265.2,7
+SIN-LAX-SQ,SQ,Singapore Airlines,Transpacific,A350-900,SIN,LAX,Scheduled,17.8,13633,21.0,254.4,5

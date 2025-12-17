@@ -1,0 +1,24 @@
+Airport_Code,Airport_Name,City,Country,Region,Origin_Rate_USD_Per_Kg,Destination_Rate_USD_Per_Kg
+LAX,Los Angeles International,Los Angeles,United States,North America,0.28,0.28
+JFK,John F Kennedy International,New York,United States,North America,0.3,0.3
+ORD,O'Hare International,Chicago,United States,North America,0.28,0.28
+MIA,Miami International,Miami,United States,North America,0.28,0.28
+ATL,Hartsfield-Jackson Atlanta International,Atlanta,United States,North America,0.25,0.25
+SYD,Sydney Kingsford Smith,Sydney,Australia,Oceania,0.33,0.33
+MEL,Melbourne Airport,Melbourne,Australia,Oceania,0.32,0.32
+AKL,Auckland Airport,Auckland,New Zealand,Oceania,0.32,0.32
+LHR,London Heathrow,London,United Kingdom,Europe,0.35,0.35
+FRA,Frankfurt Airport,Frankfurt,Germany,Europe,0.32,0.32
+CDG,Charles de Gaulle,Paris,France,Europe,0.32,0.32
+HND,Tokyo Haneda,Tokyo,Japan,Asia,0.35,0.35
+HKG,Hong Kong International,Hong Kong,Hong Kong,Asia,0.35,0.35
+ICN,Seoul Incheon,Seoul,South Korea,Asia,0.32,0.32
+SIN,Singapore Changi,Singapore,Singapore,Asia,0.35,0.35
+MNL,Ninoy Aquino International,Manila,Philippines,Asia,0.28,0.28
+TLV,Ben Gurion Airport,Tel Aviv,Israel,Middle East,0.31,0.31
+DXB,Dubai International,Dubai,United Arab Emirates,Middle East,0.32,0.32
+RUH,King Khalid International,Riyadh,Saudi Arabia,Middle East,0.3,0.3
+BOG,El Dorado International,Bogotá,Colombia,Latin America,0.26,0.26
+GRU,São Paulo-Guarulhos International,São Paulo,Brazil,Latin America,0.28,0.28
+EZE,Ministro Pistarini International,Buenos Aires,Argentina,Latin America,0.27,0.27
+SCL,Arturo Merino Benítez International,Santiago,Chile,Latin America,0.27,0.27

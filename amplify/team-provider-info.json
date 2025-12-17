@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-paxaircargoapi-dev-365cf-authRole",
+      "UnauthRoleArn": "arn:aws:iam::572908219284:role/amplify-paxaircargoapi-dev-365cf-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::572908219284:role/amplify-paxaircargoapi-dev-365cf-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-paxaircargoapi-dev-365cf-deployment",
+      "UnauthRoleName": "amplify-paxaircargoapi-dev-365cf-unauthRole",
+      "StackName": "amplify-paxaircargoapi-dev-365cf",
+      "StackId": "arn:aws:cloudformation:us-east-1:572908219284:stack/amplify-paxaircargoapi-dev-365cf/3a3fb9d0-da02-11f0-8c22-12e3c910f5f3",
+      "AmplifyAppId": "d3gy21nu3x6dnz"
+    }
+  }
+}

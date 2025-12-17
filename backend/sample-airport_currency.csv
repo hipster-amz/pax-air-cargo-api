@@ -1,0 +1,24 @@
+IATA_Code,City_Name,Country,Currency_Code,Currency_Symbol,Exchange_Rate_to_USD,Region
+LAX,Los Angeles,United States,USD,$,1,North America
+JFK,New York,United States,USD,$,1,North America
+ORD,Chicago,United States,USD,$,1,North America
+MIA,Miami,United States,USD,$,1,North America
+ATL,Atlanta,United States,USD,$,1,North America
+SYD,Sydney,Australia,AUD,A$,1.52,Oceania
+MEL,Melbourne,Australia,AUD,A$,1.52,Oceania
+AKL,Auckland,New Zealand,NZD,NZ$,1.64,Oceania
+LHR,London,United Kingdom,GBP,�,0.79,Europe
+FRA,Frankfurt,Germany,EUR,�,0.92,Europe
+CDG,Paris,France,EUR,�,0.92,Europe
+HND,Tokyo,Japan,JPY,�,149.5,Asia
+HKG,Hong Kong,Hong Kong,HKD,HK$,7.79,Asia
+ICN,Seoul,South Korea,KRW,?,1320,Asia
+SIN,Singapore,Singapore,SGD,S$,1.34,Asia
+MNL,Manila,Philippines,PHP,?,56.5,Asia
+TLV,Tel Aviv,Israel,ILS,?,3.65,Middle East
+DXB,Dubai,United Arab Emirates,AED,?.?,3.67,Middle East
+RUH,Riyadh,Saudi Arabia,SAR,?.?,3.75,Middle East
+BOG,Bogotta,Colombia,COP,$,3950,Latin America
+GRU,Sao Paulo,Brazil,BRL,R$,5.02,Latin America
+EZE,Buenos Aires,Argentina,ARS,$,850,Latin America
+SCL,Santiago,Chile,CLP,$,970,Latin America

@@ -1,0 +1,77 @@
+### Test Health Check
+GET http://localhost:3000/api/health
+
+### Get System Parameters
+GET http://localhost:3000/api/admin/parameters
+
+### Get Origin Airports
+GET http://localhost:3000/api/airports/origins
+
+### Get Destination Airports (after selecting LAX as origin)
+GET http://localhost:3000/api/airports/destinations?origin=LAX
+
+### Calculate Should Cost
+POST http://localhost:3000/api/calculate
+Content-Type: application/json
+
+{
+  "originCode": "LAX",
+  "destinationCode": "HKG",
+  "isPreScreened": true,
+  "handlingModel": "DAA"
+}
+
+### Upload Airport Currency Data
+POST http://localhost:3000/api/admin/upload/airport_currency
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="file"; filename="sample-airport_currency.csv"
+Content-Type: text/csv
+
+< ./airport_currency.csv
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+
+### Upload Route Data
+POST http://localhost:3000/api/admin/upload/route_data
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="file"; filename="sample-route_data.csv"
+Content-Type: text/csv
+
+< ./sample-route_data.csv
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+
+### Upload Aircraft Costs
+POST http://localhost:3000/api/admin/upload/aircraft_costs
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="file"; filename="sample-aircraft_costs.csv"
+Content-Type: text/csv
+
+< ./sample-aircraft_costs.csv
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+
+### Upload Handling Rates
+POST http://localhost:3000/api/admin/upload/handling_rates
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="file"; filename="sample-handling_rates.csv"
+Content-Type: text/csv
+
+< ./sample-handling_rates.csv
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+
+### Upload Market Benchmarks
+POST http://localhost:3000/api/admin/upload/market_benchmarks
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="file"; filename="sample-market_benchmarks.csv"
+Content-Type: text/csv
+
+< ./sample-market_benchmarks.csv
+------WebKitFormBoundary7MA4YWxkTrZu0gW--

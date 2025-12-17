@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'Amazon Ember';
+  src: local('Arial');
+  font-weight: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+.section-heading {
+  font-size: 18px;
+  font-weight: 600;
+  color: #232f3e;
+  margin-bottom: 16px;
+}
+
+.result-card {
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.cost-breakdown-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.cost-breakdown-item:last-child {
+  border-bottom: none;
+}
+
+.cost-value {
+  font-weight: 500;
+}
+
+.assessment-excellent {
+  color: #28a745;
+}
+
+.assessment-fair {
+  color: #ffc107;
+}
+
+.assessment-overpriced {
+  color: #dc3545;
+}

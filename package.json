@@ -1,0 +1,17 @@
+{
+    "version":  "1.0.0",
+    "name":  "pax-air-cargo-monorepo",
+    "description":  "PAX Air Cargo - Unified monorepo with Amplify backend and React frontend",
+    "scripts":  {
+                    "frontend:dev":  "cd frontend \u0026\u0026 npm run dev",
+                    "frontend:build":  "cd frontend \u0026\u0026 npm run build",
+                    "install-all":  "npm install",
+                    "backend:build":  "cd backend \u0026\u0026 npm run build",
+                    "backend:dev":  "cd backend \u0026\u0026 npm run dev"
+                },
+    "workspaces":  [
+                       "backend",
+                       "frontend"
+                   ],
+    "private":  true
+}
